@@ -1,0 +1,10 @@
+[
+  {
+    "pipeline_name": "signals_landing_pipeline",
+    "quarantined_records": 0,
+    "reason_breakdown": {
+      "ops_anomaly": 0
+    },
+    "measurement_window": "latest_partition"
+  }
+]

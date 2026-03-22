@@ -1,0 +1,10 @@
+[
+  {
+    "pipeline_name": "signals_landing_pipeline",
+    "quarantined_records": 35,
+    "reason_breakdown": {
+      "ops_anomaly": 35
+    },
+    "measurement_window": "total_cumulative"
+  }
+]
