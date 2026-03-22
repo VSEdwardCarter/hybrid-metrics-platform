@@ -17,3 +17,10 @@ Thumbs.db
 
 # Logs
 *.log
+
+# IntelliJ
+.idea/
+
+# Python junk
+hybrid-metrics-api/lib/
+hybrid-metrics-api/python3/
