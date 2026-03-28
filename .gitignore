@@ -1,26 +1,32 @@
+# IDE
+.idea/
+
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Virtual env
-hybrid-metrics-api/hybrid-metrics/
+# Virtual environments
 venv/
 .env
+.env.local
+hybrid-metrics-api/hybrid-metrics/
 
-# Node / Next.js
-hybrid-metrics-ui/node_modules/
-hybrid-metrics-ui/.next/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# IntelliJ
-.idea/
-
-# Python junk
+# Stray local Python artifacts
 hybrid-metrics-api/lib/
 hybrid-metrics-api/python3/
+
+# Metrics output data
+hybrid-metrics-api/data/metrics/current/
+hybrid-metrics-api/data/metrics/total/
+hybrid-metrics-api/data/metrics/baseline/
+
+# Next.js
+hybrid-metrics-ui/node_modules/
+hybrid-metrics-ui/.next/
+hybrid-metrics-ui/out/
+
+# OS files
+.DS_Store
+Thumbs.db
